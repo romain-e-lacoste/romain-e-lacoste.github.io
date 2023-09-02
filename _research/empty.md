@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 1"
+title: "Research"
 collection: research
 permalink: /research/
 ---
