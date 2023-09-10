@@ -2,7 +2,7 @@
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
-layout: home
+layout: archive
 ---
 ## 2023-2024
 - L3 Optimisation, Sorbonne Université (TP 12h)
