@@ -5,7 +5,7 @@ author_profile: true
 layout: archive
 ---
 ## 2023-2024
-- L3 Optimisation, Sorbonne Université (TP 12h)
+- L3 Discrete Optimisation, Sorbonne Université (TP 12h)
 
 
 ## 2022-2023
