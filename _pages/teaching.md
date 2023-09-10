@@ -9,5 +9,5 @@ layout: archive
 
 
 ## 2022-2023
-- L2 Statistic and Test, Université Gustave Eiffel (TD 32h)
+- L2 Statistics and Tests, Université Gustave Eiffel (TD 32h)
 
