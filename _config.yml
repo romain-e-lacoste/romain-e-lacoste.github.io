@@ -86,7 +86,7 @@ author:
   location         : "Paris, France"
   email            :
   arxiv            :
-  hal              :
+  hal              : "https://hal.science/search/index/q/*/authIdHal_s/romain-edmond-lacoste"
   orcid            : "https://orcid.org/0009-0006-7029-8000"
   github           : "romain-e-lacoste"
   employer         :
