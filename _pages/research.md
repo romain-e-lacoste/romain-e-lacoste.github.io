@@ -1,5 +1,10 @@
 ---
-collection: publications
-hal: 'https://hal.science/hal-04345822'
-github: 'https://github.com/romain-e-lacoste'
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
 ---
+## Preprints
+- *Bats Monitoring: A Classification Procedure of Bats Behaviors based on Hawkes Processes*, C. Denis, C. Dion-Blanc, R.E. Lacoste, L. Sansonnet and Y. Bas (2023).
+---
+hal : "https://hal.science/hal-04345822"
