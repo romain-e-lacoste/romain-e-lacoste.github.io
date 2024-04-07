@@ -5,5 +5,7 @@ permalink: /talks/
 author_profile: true
 ---
 
-- July 2023, 54es Journées de Statistique, Brussels.
-- February 2023, Journées du Rocheton du CESCO, Le Rocheton.
+- **10es Rencontre des Jeunes Statisticien-ne-s**, April 2024, Porquerolles.
+- **Journées Math Bio Santé 2023**, November 2023, Marne la Vallée.
+- **54es Journées de Statistique**, July 2023, Brussels.
+- **Journées du Rocheton du CESCO**, February 2023, Le Rocheton.
