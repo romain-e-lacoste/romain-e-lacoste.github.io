@@ -5,6 +5,7 @@ permalink: /talks/
 author_profile: true
 ---
 
+- **Séminaire doctoral du LPSM**, June 2024, *Paris*.
 - **École de printemps de la Chaire MMB 2024**, June 2024, *Aussois*.
 - **55es Journées de Statistique**, May 2024, *Bordeaux*.
 - **Journées des jeunes chercheurs.es du LAMA**, May 2024, *Institut Henri Poincaré*.
