@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 ## Preprints
-- *ERM-Lasso classification algorithm for Multivariate Hawkes Processes paths*, \
+- **ERM-Lasso classification algorithm for Multivariate Hawkes Processes paths**, \
   C. Denis, C. Dion-Blanc, R.E. Lacoste, L. Sansonnet (2024).
   <span> <a href="{{"https://hal.science/hal-04646888"}}"><i class="ai ai-hal ai-fw"></i> HAL</a> </span>,
   <span> <a href="{{"https://arxiv.org/abs/2407.11455"}}"><i class="ai ai-arxiv ai-fw"></i> arXiv</a> </span>
