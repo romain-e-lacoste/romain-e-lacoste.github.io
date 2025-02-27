@@ -5,6 +5,11 @@ permalink: /research/
 author_profile: true
 ---
 ## Preprints
+- **Sparkle: A Statistical Learning Toolkit for High-Dimensional Hawkes Processes in Python**, \
+  R.E. Lacoste, (2025).
+  <span> <a href="{{"https://hal.science/hal-04966672"}}"><i class="ai ai-hal ai-fw"></i> HAL</a> </span>,
+  <span> <a href="{{"https://arxiv.org/abs/2502.18979"}}"><i class="ai ai-arxiv ai-fw"></i> arXiv</a> </span>
+  <span> <a href="{{"https://github.com/romain-e-lacoste/sparkle"}}"><i class="ai ai-github ai-fw"></i> GitHub</a> </span>
 - **ERM-Lasso classification algorithm for Multivariate Hawkes Processes paths**, \
   C. Denis, C. Dion-Blanc, R.E. Lacoste, L. Sansonnet (2024).
   <span> <a href="{{"https://hal.science/hal-04646888"}}"><i class="ai ai-hal ai-fw"></i> HAL</a> </span>,
