@@ -5,7 +5,8 @@ permalink: /talks/
 author_profile: true
 ---
 
-- **Séminaire équipe MIND & SODA**, April 2024, *Palaiseau*
+- **Séminaire équipe MIND & SODA**, April 2025, *Palaiseau*
+- **CFE-CMStatistics 2024 (invited)**, December 2024, *London*
 - **Rencontres de la chaire MMB**, October 2024, *Veolia*.
 - **Séminaire doctoral du LPSM**, June 2024, *Paris*.
 - **École de printemps de la Chaire MMB 2024**, June 2024, *Aussois*.
