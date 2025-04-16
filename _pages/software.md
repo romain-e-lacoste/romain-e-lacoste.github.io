@@ -10,25 +10,34 @@ redirect_from:
 <style>
   .btnCtrl { display: none; }
 
-  .toggle-button::before {
-    content: "+";
+  .display-status {
     cursor: pointer;
     font-weight: bold;
     font-size: 1.2em;
-    margin-right: 5px;
+    margin: 0.5em 0;
+    display: inline-block;
   }
 
-  .btnCtrl:checked + .toggle-button::before {
-    content: "-";
+  .plus { display: inline; }
+  .minus { display: none; }
+
+  .btnCtrl:checked + .display-status .plus { display: none; }
+  .btnCtrl:checked + .display-status .minus { display: inline; }
+
+  .summary-text { display: block; }
+  .full-desc { display: none; }
+
+  .btnCtrl:checked ~ .summary-text { display: none; }
+  .btnCtrl:checked ~ .full-desc { display: block; }
+
+  .full-desc ul {
+    padding-left: 1.2em;
   }
 
-  .package-desc {
-    display: none;
-    margin-top: 0.5em;
-  }
-
-  .btnCtrl:checked ~ .package-desc {
-    display: block;
+  .full-desc code {
+    background-color: #f6f8fa;
+    padding: 2px 4px;
+    border-radius: 4px;
   }
 
   .project {
@@ -41,43 +50,14 @@ redirect_from:
     align-items: flex-start;
   }
 
-  .project_item {
-    flex: 1;
-  }
-
-  .title {
-    font-size: 1.25em;
-    font-weight: bold;
-  }
-
   .logo img {
     max-width: 100px;
     border-radius: 6px;
   }
 
-  .project_item a {
-    margin-right: 10px;
-    text-decoration: none;
-    color: #0366d6;
-  }
-
-  .date {
-    font-style: italic;
-    color: #666;
-    font-size: 0.9em;
-    display: inline-block;
-    margin-top: 0.5em;
-  }
-
-  .package-desc ul {
-    padding-left: 1.2em;
-  }
-
-  .package-desc code {
-    background-color: #f6f8fa;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-size: 0.95em;
+  .title {
+    font-size: 1.25em;
+    font-weight: bold;
   }
 </style>
 
@@ -95,29 +75,32 @@ redirect_from:
 
     <span class="date">Feb 2025</span>
 
-    <p>A statistical learning toolkit for high-dimensional Hawkes processes in Python.</p>
-
     <input type="checkbox" class="btnCtrl" id="proj1" />
-    <label class="toggle-button" for="proj1"></label>
+    <label class="btn display-status" for="proj1">
+      <span class="plus">+</span>
+      <span class="minus">−</span>
+    </label>
 
-    <div class="package-desc">
-      <p>
-        The purpose of <code>Sparklen<code> package is to provide the <code>Python<code> community with 
-        a complete suite of cutting-edge tools specifically tailored for 
-        the study of exponential Hawkes processes, with a particular focus 
-        on high-dimensional framework. It notably features:
-        <ul>
-        <li>A efficient cluster-based simulation method for generating events.
-        <li> A highly versatile and flexible framework for performing inference of 
-          multivariate Hawkes process.
-        <li> Novel approaches to address the challenge of multiclass 
-          classification within the supervised learning framework.
-      </p>
+    <div class="summary-text">
+      <p>Toolkit for Hawkes Processes in Python.</p>
+    </div>
+
+    <div class="full-desc">
+      <p>The purpose of <code>Sparklen</code> package is to provide the <code>Python</code> community with 
+         a complete suite of cutting-edge tools specifically tailored for 
+         the study of exponential Hawkes processes, with a particular focus 
+         on high-dimensional framework. It notably features::</p>
+      <ul>
+        <li>A efficient cluster-based simulation method for generating events.</li>
+        <li>A highly versatile and flexible framework for performing inference of 
+            multivariate Hawkes process.</li>
+        <li>Novel approaches to address the challenge of multiclass 
+            classification within the supervised learning framework./li>
+      </ul>
     </div>
   </div>
 
   <div class="logo">
-    <img src="https://raw.githubusercontent.com/romain-e-lacoste/sparklen/main/doc/logos/sparklen-logo-black.svg" alt="Sparklen logo" width=250/>
+    <img src="https://raw.githubusercontent.com/romain-e-lacoste/sparklen/main/doc/logos/sparklen-logo-black.svg" alt="Logo">
   </div>
 </div>
-
