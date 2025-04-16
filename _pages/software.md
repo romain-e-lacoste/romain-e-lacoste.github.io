@@ -7,12 +7,18 @@ redirect_from:
   - /resume
 ---
 
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+<!-- Academicons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" />
+
 <style>
   .btnCtrl { display: none; }
 
   .display-status {
     cursor: pointer;
-    font-size: 1.2em;
+    font-size: 1em; /* Matches text size */
     margin-left: 0.5em;
   }
 
@@ -22,21 +28,24 @@ redirect_from:
   .btnCtrl:checked + .display-status .plus { display: none; }
   .btnCtrl:checked + .display-status .minus { display: inline; }
 
-  .summary-text {
+  .summary-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 0.5em;
   }
 
-  .summary-text p { margin: 0; }
+  .summary-text {
+    margin: 0;
+    font-size: 1em;
+  }
 
   .full-desc {
     display: none;
     margin-top: 0.5em;
   }
 
-  .btnCtrl:checked ~ .summary-text { display: none; }
+  .btnCtrl:checked ~ .summary-wrapper { display: none; }
   .btnCtrl:checked ~ .full-desc { display: block; }
 
   .full-desc ul {
@@ -122,16 +131,23 @@ redirect_from:
     <i class="fa fa-minus-circle minus"></i>
   </label>
 
-  <div class="summary-text">
-    <p>Toolkit for Hawkes Processes in Python.</p>
+  <div class="summary-wrapper">
+    <p class="summary-text">Toolkit for Hawkes Processes in Python.</p>
+    <label class="btn display-status" for="proj1">
+      <i class="fa fa-plus-circle plus"></i>
+      <i class="fa fa-minus-circle minus"></i>
+    </label>
   </div>
 
   <div class="full-desc">
-    <p>It notably features:</p>
+    <p> A statistical learning toolkit for high-dimensional Hawkes processes in Python.</p>
+  </div>
+    <p>The purpose of <code>Sparklen</code> package is to provide the <code>Python</code> community with a complete suite of cutting-edge tools specifically tailored for the study of exponential Hawkes processes, with a particular focus on high-dimensional framework. It notably features:</p>
     <ul>
       <li>A efficient cluster-based simulation method for generating events.</li>
       <li>A highly versatile and flexible framework for performing inference of multivariate Hawkes process.</li>
-      <li>Novel approaches to address the challenge of multiclass classification within the supervised learning framework.</li>
+      <li>Novel approaches to address the challenge of multiclass classification within the supervised learning framework./li>
     </ul>
   </div>
 </div>
+
