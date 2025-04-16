@@ -69,11 +69,15 @@ redirect_from:
       <i class="fa fa-fw fa-github"></i> GitHub
     </a>
 
-    <a href="https://arxiv.org/abs/1234.56789" target="_blank">
-      <i class="fa fa-fw fa-file-pdf-o"></i> arXiv
+    <a href="https://arxiv.org/abs/2502.18979" target="_blank">
+      <i class="ai ai-arxiv ai-fw"></i> arXiv
     </a>
 
     <span class="date">Feb 2025</span>
+
+    <div class="logo">
+      <img src="https://raw.githubusercontent.com/romain-e-lacoste/sparklen/main/doc/logos/sparklen-logo-black.svg" alt="Logo">
+    </div>
 
     <input type="checkbox" class="btnCtrl" id="proj1" />
     <label class="btn display-status" for="proj1">
@@ -86,21 +90,13 @@ redirect_from:
     </div>
 
     <div class="full-desc">
-      <p>The purpose of <code>Sparklen</code> package is to provide the <code>Python</code> community with 
-         a complete suite of cutting-edge tools specifically tailored for 
-         the study of exponential Hawkes processes, with a particular focus 
-         on high-dimensional framework. It notably features::</p>
+      <p> A statistical learning toolkit for high-dimensional Hawkes processes in Python.</p>
+    </div>
+      <p>The purpose of <code>Sparklen</code> package is to provide the <code>Python</code> community with a complete suite of cutting-edge tools specifically tailored for the study of exponential Hawkes processes, with a particular focus on high-dimensional framework. It notably features:</p>
       <ul>
         <li>A efficient cluster-based simulation method for generating events.</li>
-        <li>A highly versatile and flexible framework for performing inference of 
-            multivariate Hawkes process.</li>
-        <li>Novel approaches to address the challenge of multiclass 
-            classification within the supervised learning framework./li>
+        <li>A highly versatile and flexible framework for performing inference of multivariate Hawkes process.</li>
+        <li>Novel approaches to address the challenge of multiclass classification within the supervised learning framework./li>
       </ul>
     </div>
   </div>
-
-  <div class="logo">
-    <img src="https://raw.githubusercontent.com/romain-e-lacoste/sparklen/main/doc/logos/sparklen-logo-black.svg" alt="Logo">
-  </div>
-</div>
