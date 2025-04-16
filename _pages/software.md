@@ -10,15 +10,26 @@ redirect_from:
 <style>
   .btnCtrl { display: none; }
 
-  .display-status .plus { display: inline; }
-  .display-status .minus { display: none; }
+  .toggle-button::before {
+    content: "+";
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 5px;
+  }
 
-  .btnCtrl:checked + .display-status .plus { display: none; }
-  .btnCtrl:checked + .display-status .minus { display: inline; }
+  .btnCtrl:checked + .toggle-button::before {
+    content: "-";
+  }
 
-  .package-desc { display: none; margin-top: 0.5em; }
+  .package-desc {
+    display: none;
+    margin-top: 0.5em;
+  }
 
-  .btnCtrl:checked ~ .package-desc { display: block; }
+  .btnCtrl:checked ~ .package-desc {
+    display: block;
+  }
 
   .project {
     border: 1px solid #ccc;
@@ -57,6 +68,17 @@ redirect_from:
     display: inline-block;
     margin-top: 0.5em;
   }
+
+  .package-desc ul {
+    padding-left: 1.2em;
+  }
+
+  .package-desc code {
+    background-color: #f6f8fa;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 0.95em;
+  }
 </style>
 
 <div class="project">
@@ -76,24 +98,19 @@ redirect_from:
     <p>A statistical learning toolkit for high-dimensional Hawkes processes in Python.</p>
 
     <input type="checkbox" class="btnCtrl" id="proj1" />
-    <label class="btn display-status" for="proj1">
-      <i class="fa fa-plus-circle plus"></i> Show more
-      <i class="fa fa-minus-circle minus"></i> Show less
-    </label>
+    <label class="toggle-button" for="proj1"></label>
 
     <div class="package-desc">
       <p>
-        The purpose of `Sparklen` package is to provide the `Python` community with 
+        The purpose of <code>Sparklen<code> package is to provide the <code>Python<code> community with 
         a complete suite of cutting-edge tools specifically tailored for 
         the study of exponential Hawkes processes, with a particular focus 
         on high-dimensional framework. It notably features:
-
-        * A efficient cluster-based simulation method for generating events.
-
-        * A highly versatile and flexible framework for performing inference of 
+        <ul>
+        <li>A efficient cluster-based simulation method for generating events.
+        <li> A highly versatile and flexible framework for performing inference of 
           multivariate Hawkes process.
-
-        * Novel approaches to address the challenge of multiclass 
+        <li> Novel approaches to address the challenge of multiclass 
           classification within the supervised learning framework.
       </p>
     </div>
