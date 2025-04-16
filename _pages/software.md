@@ -11,7 +11,7 @@ redirect_from:
 
 <a href="{{"https://github.com/romain-e-lacoste/sparklen"}}"><i class="fa fa-fw fa-github"></i> GitHub</a>
 
-<a href="https://github.com/romain-e-lacoste/sparklen">
+<a href="https://raw.githubusercontent.com/romain-e-lacoste/sparklen">
     <img src="doc/logos/sparklen-logo-black.svg" alt="Sparklen logo" width=250/>
 </a>
 
