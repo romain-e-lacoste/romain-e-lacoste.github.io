@@ -11,9 +11,7 @@ redirect_from:
 
 <a href="{{"https://github.com/romain-e-lacoste/sparklen"}}"><i class="fa fa-fw fa-github"></i> GitHub</a>
 
-<a href="https://raw.githubusercontent.com/romain-e-lacoste/sparklen">
-    <img src="doc/logos/sparklen-logo-black.svg" alt="Sparklen logo" width=250/>
-</a>
+<img src="https://raw.githubusercontent.com/romain-e-lacoste/sparklen/main/doc/logos/sparklen-logo-black.svg" alt="Sparklen logo" width="100">
 
 The purpose of `Sparklen` package is to provide the `Python` community with 
 a complete suite of cutting-edge tools specifically tailored for 
