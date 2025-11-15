@@ -4,6 +4,10 @@ permalink: /teaching/
 author_profile: true
 layout: archive
 ---
+
+## 2025-2026
+- **Data science**, CPES 2, *Lycée International de Palaiseau* (CM 60h)
+  
 ## 2024-2025
 - **Point Processes**, Master 1 ISDS & Actuarial, *Sorbonne Université* (TP/TD 16h)
 - **Multidimensional Data Analysis**, L3 & ISUP 1, *Sorbonne Université* (TD 18h)
