@@ -5,6 +5,7 @@ permalink: /talks/
 author_profile: true
 ---
 
+- **MODAL'X team seminar**, December 2025, *Nanterre*.
 - **PhD thesis defence**, September 2025, *Paris*.
 - **56es Journées de Statistique**, June 2025, *Marseille*.
 - **Hawkes process seminar**, April 2025, *Paris*.
