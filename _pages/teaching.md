@@ -6,6 +6,7 @@ layout: archive
 ---
 
 ## 2025-2026
+- **Point Processes**, Master 1 ISDS & Actuarial, *Sorbonne Université* (TP/TD 16h)
 - **Data Science**, CPES 2, *Lycée International de Palaiseau Paris-Saclay* (CM 60h)
   
 ## 2024-2025
