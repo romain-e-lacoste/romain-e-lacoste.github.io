@@ -10,16 +10,18 @@ author_profile: true
   <span> <a href="{{"https://hal.science/hal-04966672"}}"><i class="ai ai-hal ai-fw"></i> HAL</a> </span>,
   <span> <a href="{{"https://arxiv.org/abs/2502.18979"}}"><i class="ai ai-arxiv ai-fw"></i> arXiv</a> </span>,
   <span> <a href="{{"https://github.com/romain-e-lacoste/sparklen"}}"><i class="fa fa-fw fa-github"></i> GitHub</a> </span>
-- **Lasso-type estimator and classification algorithm for high-dimensional multivariate Hawkes processes**, \
-  C. Denis, C. Dion-Blanc, R.E. Lacoste, L. Sansonnet (2024).
-  <span> <a href="{{"https://hal.science/hal-04646888"}}"><i class="ai ai-hal ai-fw"></i> HAL</a> </span>,
-  <span> <a href="{{"https://arxiv.org/abs/2407.11455"}}"><i class="ai ai-arxiv ai-fw"></i> arXiv</a> </span>
 
 ## Publications 
+- [Lasso-type estimator and classification algorithm for high-dimensional multivariate Hawkes processes](https://doi.org/10.1111/sjos.70066), \
+  C. Denis, C. Dion-Blanc, R.E. Lacoste, L. Sansonnet (2026).
+  <span> <a href="{{"https://hal.science/hal-04646888"}}"><i class="ai ai-hal ai-fw"></i> HAL</a> </span>,
+  <span> <a href="{{"https://arxiv.org/abs/2407.11455"}}"><i class="ai ai-arxiv ai-fw"></i> arXiv</a> </span> \
+  *Scandinavian Journal of Statistics*.
 - [The duration of acoustic bat passes as a proxy of foraging activity](https://doi.org/10.14709/BarbJ.17.1.2024.08), \
   C. Roemer, S. Chayrigues, R.E. Lacoste and Y. Bas (2024). \
   *Journal of Bat Research & Conservation*.
 - [Bats Monitoring: A Classification Procedure of Bats Behaviors based on Hawkes Processes](https://doi.org/10.1093/jrsssc/qlae024), \
   C. Denis, C. Dion-Blanc, R.E. Lacoste, L. Sansonnet and Y. Bas (2024).
-  <span> <a href="{{"https://hal.science/hal-04345822"}}"><i class="ai ai-hal ai-fw"></i> HAL</a> </span>, <span> <a href="{{"https://github.com/romain-e-lacoste/bat-hawkes-classification"}}"><i class="fa fa-fw fa-github"></i> GitHub</a> </span> \
+  <span> <a href="{{"https://hal.science/hal-04345822"}}"><i class="ai ai-hal ai-fw"></i> HAL</a> </span>,
+  <span> <a href="{{"https://github.com/romain-e-lacoste/bat-hawkes-classification"}}"><i class="fa fa-fw fa-github"></i> GitHub</a> </span> \
  *Journal of the Royal Statistical Society, Series C (Applied Statistics)*. 
