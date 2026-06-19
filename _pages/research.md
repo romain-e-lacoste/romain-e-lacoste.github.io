@@ -25,3 +25,7 @@ author_profile: true
   <span> <a href="{{"https://hal.science/hal-04345822"}}"><i class="ai ai-hal ai-fw"></i> HAL</a> </span>,
   <span> <a href="{{"https://github.com/romain-e-lacoste/bat-hawkes-classification"}}"><i class="fa fa-fw fa-github"></i> GitHub</a> </span> \
  *Journal of the Royal Statistical Society, Series C (Applied Statistics)*. 
+
+## PhD thesis 
+- [Inference and classification for Hawkes processes : from an application in ecology to a theoretical high-dimensional study, bridged by implementation](https://theses.hal.science/tel-05635119), \
+  R.E. Lacoste, (2025).
